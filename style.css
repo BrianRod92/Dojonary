@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Nav-Bar CODE HERE. */
+
+.navBar {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 785px;
+    height: 70px;
+    margin-left: 400px;
+}
+
+.navBar>h1 {
+    margin-right: 40px;
+}
+
+.search {
+    border: 2px solid black;
+}
+
+.navBar>.search {
+    width: 40%;
+    height: 20px;
+}
+
+.loginLogout {
+    color: white;
+    font-size: 1em;
+    background-color: rgb(43, 120, 228);
+    height: 30px;
+    width: 60px;
+    box-shadow: 4px 4px 0px black;
+}
+
+
+
+/* Main Body code Below */
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.mainLeft {
+    margin-right: 20px;
+}
+
+
+
+/* Left panel code below  */
+
+
+
+/* Top of Left Panel Code below */
+
+.topDef {
+    display: flex;
+    border: 3px solid black;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+}
+
+.cont1Left {
+    padding: 30px;
+}
+
+.cont1Right {
+    font-size: 1.5em;
+}
+
+.topContentLeft>h2 {
+    font-size: 2em;
+}
+
+.topContentLeft>.noun {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.topContentLeft>.plural {
+    font-size: 1em;
+    font-weight: 200;
+
+}
+
+
+.likeBttnTop {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(255, 217, 102);
+    height: 30px;
+    width: 90px;
+    box-shadow: 4px 4px 0px black;
+    /* margin-top: 20px; */
+}
+
+/* Bottom of Left Panel code below */
+
+.bottomDef {
+    display: flex;
+    border: 3px solid black;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+}
+
+.cont2Left {
+    padding: 30px;
+}
+
+.cont2Right {
+    font-size: 1.5em;
+}
+
+.bottomContentLeft>h2 {
+    font-size: 2em;
+}
+
+.bottomContentLeft>.noun {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bottomContentLeft>.plural {
+    font-size: 1em;
+    font-weight: 200;
+
+}
+
+.likeBttnBottom {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(255, 217, 102);
+    height: 30px;
+    width: 90px;
+    box-shadow: 4px 4px 0px black;
+    /* margin-top: 20px; */
+}
+
+
+
+/* Right panel code below */
+
+.mainRight {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+}
+
+.mainRightCont {
+    margin-left: 20px;
+}
+
+.rightHeading {
+    font-size: 2em;
+}
+
+.addDef {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(147, 196, 125);
+    height: 40px;
+    width: 160px;
+    box-shadow: 4px 4px 0px black;
+    margin-left: 30px;
+    /* margin-top: 20px; */
+
+}
